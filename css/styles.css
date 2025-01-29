@@ -1,0 +1,100 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+header{
+    background-color: #272829;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+header nav {
+    color: #fff;
+    padding: 1rem;
+
+}
+header nav a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+main{
+    background-color: #eeebeb;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    width:100%;
+    height: 100%;
+}
+main .caja{
+    background-color: #fff;
+    width: 70%;
+    margin: 2rem 6rem;
+    height: 100%;
+    border-radius: 2rem;
+}
+.caja #posts{
+    width: 80%;
+    height: 80%;
+    margin: 5%;
+}
+.caja #posts header{
+    background-color: #fff;
+    color: black;
+}
+
+.caja #posts footer{
+    background-color: #fff;
+    justify-content: left;
+}
+
+.caja #posts footer button{
+    border-radius: 0.2rem;
+    background-color: #21d917;
+    color: #fff;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+}  
+
+main aside{
+    background-color: #fff;
+    width: 30%;
+    height: 100%;
+    margin: 2rem 6rem;
+    border-radius: 2rem;
+    font-size: 0.7rem;
+    display: flex;
+}
+
+aside .relacionado .contenido{
+    margin: 5%;
+}
+.relacionado .contenido ul h3{
+    margin: 0;
+}
+aside .relacionado .contenido ul p{
+    margin: 0;
+}
+
+
+footer{
+    background-color: #272829;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+}
+
+footer .pie_pagina{
+    font-size: small;
+}
